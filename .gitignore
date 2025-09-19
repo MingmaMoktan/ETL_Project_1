@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+code_log.txt
+
+# Databases
+*.db
+Banks.db
+
+# Data outputs
+*.csv
+*.xlsx
+
+# OS junk
+.DS_Store
+Thumbs.db
