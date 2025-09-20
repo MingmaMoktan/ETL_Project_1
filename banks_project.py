@@ -97,7 +97,9 @@ def load_to_csv(df, output_path):
     the provided path. Function returns nothing.'''
     df.to_csv(csv_path, index=False)  # index=False to avoid adding extra column in CSV
     log_progress('Data saved to CSV file')
-
+    
+output_path = './largest_bank.csv'
+load_to_csv(df, output_path)
 
 def load_to_db(df, sql_connection, table_name):
     ''' This function saves the final data frame to a database
