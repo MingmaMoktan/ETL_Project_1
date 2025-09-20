@@ -38,8 +38,8 @@ The project was built as part of a hands-on lab and includes logging, CSV storag
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
+   git clone https://github.com/MingmaMoktan/ETL_Project_1.git
+   cd <your repo>
 
 2. Create a virtual environment and install dependencies:
 python3 -m venv venv
@@ -64,7 +64,6 @@ SELECT Name FROM Largest_banks LIMIT 5;
 
 
 📖 Documentation
-
 Auto-generated documentation is available using pdoc.
 Generate docs with:
 pdoc banks_project.py -o docs
@@ -72,28 +71,12 @@ pdoc banks_project.py -o docs
 If hosted on GitHub Pages, view it here:
 
 # To Do / Improvements
+- Make pipeline more modular with separate extract.py, transform.py, load.py
+- Add unit tests for each function
+- Automate ETL scheduling (e.g., with Airflow or Cron)
+- Containerize with Docker
 
-Make pipeline more modular with separate extract.py, transform.py, load.py
-
-Add unit tests for each function
-
-Automate ETL scheduling (e.g., with Airflow or Cron)
-
-Containerize with Docker
 
 👨‍💻 Author
-
-Your Name
-
-GitHub: @mingmamoktan
-
-
----
-
-✨ This README has:
-- A **clear overview** of your project  
-- **Instructions** for running it  
-- **Docs integration** with `pdoc`  
-- A **future improvements** section  
-
-# You can also find the requirement.txt in my github from where you can install all the dependencies and then do this project on your own.
+Mingma Moktan
+GitHub: @MingmaMoktan
