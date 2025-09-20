@@ -10,13 +10,20 @@ The project was built as part of a hands-on lab and includes logging, CSV storag
 ## 📂 Project Structure
 
 ├── banks_project.py # Main ETL script
+|
 ├── data/ # Input and processed data files
 │ └── exchange_rate.csv
+|
 ├── Banks.db # SQLite database (generated after running script)
+|
 ├── banks.csv # Final transformed CSV (generated after running script)
+|
 ├── code_log.txt # Log file (auto-generated)
+|
 ├── docs/ # Auto-generated documentation (via pdoc)
+|
 ├── .gitignore # Ignored files (db, logs, venv, etc.)
+|
 └── README.md # Project description
 
 
@@ -59,7 +66,9 @@ python banks_project.py
 The script supports running SQL queries like:
 
 SELECT * FROM Largest_banks;
+
 SELECT AVG(MC_GBP_Billion) FROM Largest_banks;
+
 SELECT Name FROM Largest_banks LIMIT 5;
 
 
